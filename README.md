@@ -74,7 +74,7 @@ Run `nhanes.R` from a folder containing the two NHANES XPT files. It creates the
 
 ## Data access and responsible sharing
 
-Do not upload NHANES XPT files, `.RData` workspace images, or participant-level derived data to this repository. Download the public source files directly from CDC:
+Download the public source files directly from CDC:
 
 - [NHANES August 2021-August 2023 data page](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2021)
 - [Demographics (`DEMO_L`) documentation](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DEMO_L.htm)
