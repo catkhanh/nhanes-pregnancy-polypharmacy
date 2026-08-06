@@ -1,0 +1,3 @@
+"pregnancy_group","unweighted_n","weighted_prevalence_pct","ci_lower_pct","ci_upper_pct","ci_method"
+"Pregnant",41,20.6,8.4,42.1,"logit"
+"Non-pregnant",1062,34.7,30.1,39.7,"logit"
