@@ -20,7 +20,7 @@ svyglm(
   family = quasibinomial()
 )
 
-# Do not fit a multivariable model among pregnant women for this project.
+# I did not fit a multivariable model among pregnant women for this project.
 # There are only 41 pregnant respondents and 10 polypharmacy events.
 # The following is a syntax template for a future dataset with adequate size:
 
