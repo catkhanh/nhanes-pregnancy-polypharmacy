@@ -18,8 +18,6 @@ The analysis uses the NHANES August 2021–August 2023 files:
 - `RXQ_RX_L.xpt`: past-30-day prescription-medication use and number of prescription medications.
 - `RHQ_L_R.xpt`: reproductive-health data, including current self-reported pregnancy status (`RHD143`).
 
-`RHD143` is in the Reproductive Health file, which is available only through the NCHS Research Data Center (RDC). Therefore, this repository does **not** include individual-level data or the restricted-use file. Users with approved RDC access must obtain the data separately before running the analysis. Publicly available NHANES files and documentation can be found on the [NHANES 2021–2023 data page](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2021).
-
 ## Study population
 
 The primary analytic population is women who meet all of the following criteria:
@@ -29,7 +27,6 @@ The primary analytic population is women who meet all of the following criteria:
 - reported being currently pregnant (`RHD143 = 1`); and
 - had non-missing polypharmacy status.
 
-Current pregnancy is based on self-report in the reproductive-health questionnaire. It is not interchangeable with `RIDEXPRG`, the demographic-file pregnancy-status variable based on examination-time information.
 
 ## Outcome definition
 
@@ -89,6 +86,18 @@ Descriptive summaries of pre-specified covariates may still be presented with un
 │   └── figure_medication_count.png
 └── renv.lock                  # optional: R package reproducibility
 ```
+
+## Results
+
+Among women aged 20–44 years, the survey-weighted prevalence of
+polypharmacy was:
+
+| Pregnancy status | Unweighted n | Polypharmacy prevalence (95% CI) |
+|---|---:|---:|
+| Pregnant | 30 | 16.2% (4.1%–46.5%) |
+| Non-pregnant | 536 | 31.9% (26.7%–37.6%) |
+
+Confidence intervals were estimated using `svyciprop()` with the logit method.
 
 ## References
 
