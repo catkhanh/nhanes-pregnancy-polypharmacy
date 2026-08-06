@@ -1,0 +1,9 @@
+# NHANES source data and R workspace files must stay local.
+*.xpt
+*.RData
+.Rhistory
+.DS_Store
+
+# Do not publish participant-level derived datasets.
+data-raw/
+data-processed/
