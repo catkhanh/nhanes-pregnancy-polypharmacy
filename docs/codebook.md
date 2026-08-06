@@ -47,7 +47,6 @@ These are specified in `survey::svydesign()` before subsetting the analytic popu
 
 - The preliminary primary analysis contains 30 pregnant participants and 7 polypharmacy events.
 - Regression models for associated factors are not estimated because the event count is too small for stable inference.
-- Do not upload RDC files, participant-level data, or any derived file containing restricted `RHD143` data to this repository.
 
 ## Sources
 
