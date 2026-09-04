@@ -72,7 +72,7 @@ Run `nhanes.R` from a folder containing the two NHANES XPT files. It creates the
 - The current NHANES medication file contains a categorized count rather than detailed medication names, so medication classes cannot be examined.
 - The results should not be interpreted as a formal trend comparison with 1999-2016 estimates because the survey period, age range, and pregnancy definition differ.
 
-## Data access and responsible sharing
+## Data access
 
 Download the public source files directly from CDC:
 
