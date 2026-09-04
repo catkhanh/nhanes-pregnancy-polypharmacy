@@ -1,8 +1,6 @@
-# Practice only: survey association commands
+# Practice : survey association commands
 #
-# This file is NOT part of the reported analysis. It does not create or save
-# association results for the GitHub repository.
-# Run the main script first so the survey-design objects are available.
+
 
 library(survey)
 
